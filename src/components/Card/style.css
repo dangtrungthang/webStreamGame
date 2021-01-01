@@ -1,0 +1,40 @@
+._row{
+    display: flex;
+    flex-direction: row;
+}
+
+._column{
+    display: flex;
+    flex-direction: column;
+}
+
+._borderTag{
+    border-style: solid;
+    border-width: 1px;
+    border-color: yellow;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+._button{
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30px;
+    background-color: transparent;
+    justify-content: space-evenly;
+    
+}
+
+.nameButton{
+    margin-left: 5px;
+    
+}

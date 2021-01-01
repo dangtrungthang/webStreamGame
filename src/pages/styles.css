@@ -1,0 +1,77 @@
+/* Page Game */
+.containerPG{
+    flex:1;display: flex;
+    flex-direction: column;
+    height: 50vh;
+    background-size:cover;
+    background-image: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-league-display-2017/en_US/cb24025fade09e3f965776440dffcc65024d3266/assets/img/content/splash/content-original-championillustrations-group-slashes.jpg");
+}
+.containerPG1{
+    flex:1;display: flex;
+    flex-direction: column;
+    height: 60vh;
+    background-size:cover;
+    background-image: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-league-display-2017/en_US/cb24025fade09e3f965776440dffcc65024d3266/assets/img/content/splash/content-original-championillustrations-group-slashes.jpg");
+}
+.opacityBG{
+   
+  
+   
+    flex: 1;
+}
+
+div1, img {width:100%}
+div1 {position:relative;}
+div1:after {
+  width:100%;
+  content:'';
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  
+  background: linear-gradient(to top, rgba(128, 128, 128, 0.685) 10%,rgba(173, 172, 172, 0) 40%);
+  height:100%;
+}
+
+.wrapPageGame{
+   
+    
+}
+
+.wrap{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textTitle{
+    font-size: 32px;
+    color:blue;
+}
+
+.textDate{
+    font-size: 20px;
+    color: #000;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    width: fit-content;
+    padding: 2px;
+    border-color: yellow;
+    background-color: yellow;
+    margin-top: 30px;
+}
+
+.button{
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    width: 200px;
+    height: 50px;
+    border-color: red;
+    background-color: transparent;
+    margin-right: 100px;
+}

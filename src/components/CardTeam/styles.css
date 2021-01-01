@@ -1,0 +1,19 @@
+.containerss{
+  
+  border-width: 2px;
+  border-color: yellow;
+  border-style: solid;
+    height: 220px;
+    width: 180px;
+    
+    flex: 1;
+   
+}
+.teamName{
+    padding: 0;
+    
+    margin-left: 25px;
+    text-align: center;
+   
+    
+}
