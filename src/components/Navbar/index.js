@@ -29,12 +29,16 @@ const Navbar = () => {
         </NavMenu>
         <input
         type="text"
-        placeholder="Search"
+        placeholder="  Tìm kiếm"
+        
         style={{
           width:"300px",
           height:"32px",
         marginTop:'5px',
-        marginBottom:'5px'
+        marginBottom:'5px',
+        background:'black',
+        opacity:0.1,borderRadius:10,
+        color:'white'
         }}
        
       />

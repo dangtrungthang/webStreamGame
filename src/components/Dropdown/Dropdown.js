@@ -1,23 +1,60 @@
 import React from 'react'
 import Select from 'react-select';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 export default function Dropdown(props) {
-    const techCompanies = [
-        { label: "Xem nhiều", value: 1 },
-        { label: "A-Z", value: 2 },
-        { label: "Ngày ra mắt", value: 3 },
+    const customStyles = {
+        control: (base, state) => ({
+          ...base,
+          background: "black",width:"200px",marginRight:"40px",
+          placeholder:"Xem gần đây",
+          opacity:0.1,color:'white',
+          // match with the menu
+          borderRadius: state.isFocused ? "3px 3px 0 0" : 3,
+          // Overwrittes the different states of border
+          borderColor: state.isFocused ? "yellow" : "green",
+          // Removes weird border around container
+          boxShadow: state.isFocused ? null : null,
+          "&:hover": {
+            // Overwrittes the different states of border
+            borderColor: state.isFocused ? "red" : "blue"
+          }
+        }),
+        menu: base => ({
+          ...base,
+          // override border radius to match the box
+          borderRadius: 0,
+          // kill the gap
+          marginTop: 0
+        }),
+        menuList: base => ({
+          ...base,
+          // kill the white space on first and last option
+          padding: 0
+        })
+      };
+    
+      const options = [
+        {
+          label: "Xem gần đây",
+          value: 1
+        },
+        {
+          label: "Xem nhiều nhất",
+          value: 2
+        },
+        {
+          label: "Mới nhất",
+          value: 3
+        },
        
-    ];
-    return (
-     <div className="container" style={{marginRight:"40px"}}>
-            <div className="row">
-                <div className="col-md-3"></div>
-                <div className="col-md-12">
-                    <Select    options={techCompanies}  placeholder={props.placeholder}/>
-                </div>
-                <div className="col-md-4"></div>
-            </div>
-            </div>
-       
-    )
+      ];
+    
+      return (
+        <div className="App">
+          <Select styles={customStyles} options={options} 
+          placeholder={props.placeholder}
+          
+           />
+        </div>
+      );
 }

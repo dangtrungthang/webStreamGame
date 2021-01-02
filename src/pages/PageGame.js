@@ -9,10 +9,24 @@ import Dropdown from '../components/Dropdown/Dropdown';
 import ListCardVideo1 from '../components/CardVideo/ListCardVideo1';
 import { Link } from 'react-router-dom';
 import { COLOR_BACKGROUND, COLOR_COLOR_TEXT1 } from '../constrant';
+import Search from '../components/Search/Search';
+import ListGridCardTou from '../components/CardVideo/ListGridCardTou';
 
 export default function PageGame() {
 
     const [isIndex, setIndex] = useState(0)
+
+    const _renderList=()=>{
+        if(isIndex==0){
+            return(
+                <ListCardVideo1/>
+            )
+        }else if(isIndex==1){
+            return(
+                <ListGridCardTou/>
+            )
+        }
+    }
     return (
         <div className='wrapPageGame' style={{background:COLOR_BACKGROUND}}>
             <div1 className="containerPG1">
@@ -61,21 +75,16 @@ export default function PageGame() {
                 }}>Hướng dẫn</a>
             </div>
             <div style={{
-                marginTop: '5px',
+                marginTop: '20px',
                 marginBottom: '5px',
                 marginLeft: "50px",
                 display: 'flex',
                 justifyContent: 'space-between',
                 flexDirection: 'row'
             }}>
-                <input
-                    type="text"
-                    placeholder="Tìm kiếm"
-                    style={{
-                        width: "200px",
-                        height: "38px",
-
-                    }} />
+               <div style={{marginLeft:"-50px"}}>
+               <Search/>
+                   </div>
                 <div style={{
                     height: "30px", display: 'flex',
                     flexDirection: 'row'
@@ -84,7 +93,8 @@ export default function PageGame() {
                     <Dropdown placeholder="Sắp xếp" />
                 </div>
             </div>
-                <ListCardVideo1/>
+            {_renderList()}
+              
 
 
         </div>

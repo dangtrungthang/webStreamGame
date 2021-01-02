@@ -3,6 +3,7 @@ import CardGame from '../components/Card/CardGame';
 import ListGridCard from '../components/Card/ListGridCard';
 import Dropdown from '../components/Dropdown/Dropdown';
 import Footer from '../components/Footer/Footer';
+import Search from '../components/Search/Search';
 import { TagGame } from '../components/Tag/TagGame';
 import { COLOR_BACKGROUND, COLOR_COLOR_TEXT1, COLOR_NAVLINK } from '../constrant'
 
@@ -10,15 +11,11 @@ const InnerBgImg="https://i.pinimg.com/originals/bc/62/88/bc628866ae1b63375f72c5
 const SelectGamePage = () => {
   return (
     <div style={{flex:1,display:'flex',flexDirection:'column'}}>
-
-   
     <div
       style={{
         display: 'flex',
         flexDirection: 'column',
-        
         background: COLOR_BACKGROUND
-      
       }}
     >
       <a style={{
@@ -26,10 +23,8 @@ const SelectGamePage = () => {
         marginLeft: "50px",
         fontSize: "48px",
         color: COLOR_COLOR_TEXT1,
-
         marginBottom: '0px'
       }}>Game</a>
-
       <div style={{
         marginTop: "30px",
         marginBottom: "30px",
@@ -39,21 +34,11 @@ const SelectGamePage = () => {
         justifyContent: 'space-between'
       }} >
         <div style={{ flexDirection: 'row', display: 'flex', alignItems: 'center', }} >
-          <input type="text" placeholder="Search"
-            style={{
-              width: "300px",
-              height: "40px",
-              marginLeft: '50px',
-              marginBottom: '5px',
-              borderColor: 'white',
-              borderWidth: "0px"
-            }} />
-
+         <Search/>
           <TagGame name="FPS" />
           <TagGame name="Hành động" />
           <TagGame name="Giải đố" />
-
-
+          
         </div>
         <div style={{
           display: 'flex',
@@ -61,7 +46,7 @@ const SelectGamePage = () => {
           alignItems: 'center'
         }}>
           <a style={{ width: "200px",color:COLOR_COLOR_TEXT1 }}>Sắp xếp theo</a>
-          <Dropdown />
+          <Dropdown placeholder="Xem gần đây" />
         </div>
       </div>
       <ListGridCard />

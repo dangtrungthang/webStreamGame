@@ -12,10 +12,10 @@ import PageGame from './pages/PageGame';
 
 function App() {
   return (
-    <Router>
+    <Router >
       <Navbar />
       <Switch>
-        <Route path='/tournaments' exact component={PageSelectTou} />
+        <Route  path='/tournaments' exact component={PageSelectTou} />
         <Route path='/about' component={SelectGamePage} />
         <Route path='/pagegame' component={PageGame} />
         <Route path='/contact-us' component={Contact} />
