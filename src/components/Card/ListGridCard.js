@@ -9,16 +9,7 @@ import { Link } from 'react-router-dom';
 
 export default function ListGridCard() {
 
-    const images = Array.from({ length: 20 }, (_, i) => {
-        let width = 200
-        let height = 360;
-        return {
-          url: `https://cdn.shopify.com/s/files/1/0747/3829/products/mL3925_1024x1024.jpg?v=1574110214`,
-          width,
-          height,
-        }
-      })
-      
+    
     const getGridGap = (elementWidth, windowHeight) => (elementWidth > 720 && windowHeight > 480) ? 10 : 5;
 
     const getColumnCount = (elementWidth) => Math.floor(elementWidth / 200);

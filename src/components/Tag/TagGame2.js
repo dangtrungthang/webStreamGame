@@ -5,9 +5,13 @@ export function TagGame2(props){
         <button style={{borderRadius:"10px",borderWidth:"2px",
         borderColor:COLOR_BORDER_GAME,borderStyle:'solid',
         backgroundColor:COLOR_BORDER_GAME,
-        marginLeft:"20px",
+        marginRight:"77px",
         padding:"5px",
-        fontSize:"12px",
+        fontSize:"36px",
+      flexDirection:'column',
+      justifyContent:'center',
+      alignItems:'center',
+        height:"42px",
 
         
         color:"white"}} 

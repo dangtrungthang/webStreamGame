@@ -6,6 +6,118 @@ export const COLOR_NAME_GAME="white"
 export const COLOR_BORDER_GAME="red"
 export const COLOR_BORDER_TAG="red"
 
+export const DATA_CA_NHAN=[
+    {
+        ImageVideo:"https://static-cdn.jtvnw.net/previews-ttv/live_user_tfblade-440x248.jpg",
+        Viewer:"1.4",
+        Chanel:"TFBLADE",
+        Title:"Rank 16 Start",
+        Logo:"https://static-cdn.jtvnw.net/jtv_user_pictures/6c5ba4a1-5c61-4ff6-a7f4-ac791c19aef2-profile_image-50x50.png"
+    },
+    {
+        ImageVideo:"https://static-cdn.jtvnw.net/previews-ttv/live_user_vaporadark-440x248.jpg",
+        Viewer:"2.4",
+        Chanel:"VeporaDark",
+        Title:"!newvid Flex on EUNE ",
+        Logo:"https://static-cdn.jtvnw.net/jtv_user_pictures/e1f4020d-4c1d-4479-8e1a-09f0f68743bd-profile_image-50x50.png"
+    },
+    {
+        ImageVideo:"https://static-cdn.jtvnw.net/previews-ttv/live_user_sanchovies-440x248.jpg",
+        Viewer:"20",
+        Chanel:"Sanchovies",
+        Title:"Metro Shroomin make it Shroom",
+        Logo:"https://static-cdn.jtvnw.net/jtv_user_pictures/a4ed35f0-6968-4524-97ae-73b13e95bbc7-profile_image-50x50.jpg"
+    },
+    {
+        ImageVideo:"https://static-cdn.jtvnw.net/previews-ttv/live_user_tracking_t1_pros-440x248.jpg",
+        Viewer:"500",
+        Chanel:"Faker",
+        Title:"Tracking T1 pros: Faker",
+        Logo:"https://static-cdn.jtvnw.net/jtv_user_pictures/28b9de74-b4cd-401b-81db-41af533752c9-profile_image-50x50.png"
+    },
+    {
+        ImageVideo:"https://static-cdn.jtvnw.net/previews-ttv/live_user_thal-440x248.jpg",
+        Viewer:"10",
+        Chanel:"OhGamingLOL",
+        Title:"LPL Spring",
+        Logo:"https://static-cdn.jtvnw.net/jtv_user_pictures/8dbce7bb-bb6e-4a3b-8121-ff262b717c81-profile_image-50x50.png"
+    },
+    {
+        ImageVideo:"https://static-cdn.jtvnw.net/previews-ttv/live_user_lathyrustv-440x248.jpg",
+        Viewer:"15",
+        Chanel:"thor1",
+        Title:"Review VOD",
+        Logo:"https://static-cdn.jtvnw.net/jtv_user_pictures/6a7d3e6c-07c0-4768-9489-8aabb6485015-profile_image-50x50.png"
+    },
+    ///
+
+    {
+        ImageVideo:"https://static-cdn.jtvnw.net/previews-ttv/live_user_tfblade-440x248.jpg",
+        Viewer:"1.4",
+        Chanel:"TFBLADE",
+        Title:"Rank 16 Start",
+        Logo:"https://static-cdn.jtvnw.net/jtv_user_pictures/6c5ba4a1-5c61-4ff6-a7f4-ac791c19aef2-profile_image-50x50.png"
+    },
+    {
+        ImageVideo:"https://static-cdn.jtvnw.net/previews-ttv/live_user_vaporadark-440x248.jpg",
+        Viewer:"2.4",
+        Chanel:"VeporaDark",
+        Title:"!newvid Flex on EUNE ",
+        Logo:"https://static-cdn.jtvnw.net/jtv_user_pictures/e1f4020d-4c1d-4479-8e1a-09f0f68743bd-profile_image-50x50.png"
+    },
+    {
+        ImageVideo:"https://static-cdn.jtvnw.net/previews-ttv/live_user_sanchovies-440x248.jpg",
+        Viewer:"20",
+        Chanel:"Sanchovies",
+        Title:"Metro Shroomin make it Shroom",
+        Logo:"https://static-cdn.jtvnw.net/jtv_user_pictures/a4ed35f0-6968-4524-97ae-73b13e95bbc7-profile_image-50x50.jpg"
+    },
+    {
+        ImageVideo:"https://static-cdn.jtvnw.net/previews-ttv/live_user_tracking_t1_pros-440x248.jpg",
+        Viewer:"500",
+        Chanel:"Faker",
+        Title:"Tracking T1 pros: Faker",
+        Logo:"https://static-cdn.jtvnw.net/jtv_user_pictures/28b9de74-b4cd-401b-81db-41af533752c9-profile_image-50x50.png"
+    },
+    {
+        ImageVideo:"https://static-cdn.jtvnw.net/previews-ttv/live_user_thal-440x248.jpg",
+        Viewer:"10",
+        Chanel:"OhGamingLOL",
+        Title:"LPL Spring",
+        Logo:"https://static-cdn.jtvnw.net/jtv_user_pictures/8dbce7bb-bb6e-4a3b-8121-ff262b717c81-profile_image-50x50.png"
+    },
+    {
+        ImageVideo:"https://static-cdn.jtvnw.net/previews-ttv/live_user_chiao622-440x248.jpg",
+        Viewer:"15",
+        Chanel:"thor1",
+        Title:"Review VOD",
+        Logo:"https://static-cdn.jtvnw.net/jtv_user_pictures/6a7d3e6c-07c0-4768-9489-8aabb6485015-profile_image-50x50.png"
+    },
+    {
+        ImageVideo:"https://static-cdn.jtvnw.net/previews-ttv/live_user_he0901-440x248.jpg",
+        Viewer:"500",
+        Chanel:"해기님",
+        Title:"탑 비에고 솔랭 첫 출격 ..! ",
+        Logo:"https://static-cdn.jtvnw.net/jtv_user_pictures/293de023-1cae-45b9-8d3a-58766642ca7c-profile_image-70x70.png"
+    },
+    {
+        ImageVideo:"https://static-cdn.jtvnw.net/previews-ttv/live_user_thal-440x248.jpg",
+        Viewer:"10",
+        Chanel:"OhGamingLOL",
+        Title:"LPL Spring",
+        Logo:"https://static-cdn.jtvnw.net/jtv_user_pictures/8dbce7bb-bb6e-4a3b-8121-ff262b717c81-profile_image-50x50.png"
+    },
+    {
+        ImageVideo:"https://static-cdn.jtvnw.net/previews-ttv/live_user_aba4647-440x248.jpg",
+        Viewer:"15",
+        Chanel:"thor1",
+        Title:"Review VOD",
+        Logo:"https://static-cdn.jtvnw.net/jtv_user_pictures/6a7d3e6c-07c0-4768-9489-8aabb6485015-profile_image-50x50.png"
+    }
+]
+
+
+
 export const DATA_EXAMPLE=[
     {
         url:"https://cdn.shopify.com/s/files/1/0747/3829/products/mL3925_1024x1024.jpg?v=1574110214",

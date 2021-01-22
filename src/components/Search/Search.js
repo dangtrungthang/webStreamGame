@@ -10,7 +10,8 @@ export default function Search(){
             marginLeft: '50px',
             marginBottom: '5px',
             borderColor: 'white',
-            borderWidth: "0px",
+            borderWidth: "1px",
+            borderStyle:"solid",
             background:'black',
             opacity:0.2,
             color:'white',
@@ -20,7 +21,7 @@ export default function Search(){
             
             <BsSearch size={18} style={{margin:"10px"}}/>
              <input type="text" placeholder="   Tìm kiếm thể loại " 
-             style={{flex:1,background:'transparent',borderWidth:"0px",color:'white',fontSize:"10px"}}>
+             style={{flex:1,background:'transparent',borderWidth:"0px",color:'white',fontSize:"15px"}}>
             </input>
         </div>
     )

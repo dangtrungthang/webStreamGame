@@ -12,7 +12,7 @@ export default function PageSelectTou() {
         <div style={{display:'flex',flexDirection:'column',background:COLOR_BACKGROUND}}> 
             <div1 className="containerPG">
             <div2 className="wrap">
-                <a className="textTitle" style={{color:COLOR_COLOR_TEXT1}}>LEAGUE OF LENGENDS</a>
+                <a className="textTitle" style={{color:COLOR_COLOR_TEXT1}}>LEAGUE OFs LENGENDS</a>
                 <a className="textDate" style={{color:'white',
                 borderColor:COLOR_BORDER_GAME,
                 background:COLOR_BORDER_GAME}}>18/01 - 24/01/2020</a>
@@ -25,7 +25,7 @@ export default function PageSelectTou() {
                     <button className="button">
                         <AiFillHeart style={{ marginRight: "10px" }}
                             size={32} color="red" />
-                        <a style={{ color: 'white', fontSize: "15px" }}>Theo dõi</a>
+                        <a style={{ color: 'white', fontSize: "15px" }}>sTheo dõi</a>
                     </button>
                     <button className="button">
                         <a style={{ color: 'white', fontSize: "15px" }}>Xem bảng đấu</a>

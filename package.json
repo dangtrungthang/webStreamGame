@@ -8,9 +8,9 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.5.3",
-    "react": "^16.13.1",
+    "react": "^17.0.1",
     "react-burger-menu": "^3.0.2",
-    "react-dom": "^16.13.1",
+    "react-dom": "^17.0.1",
     "react-gridlist": "^1.1.0",
     "react-icons": "^4.1.0",
     "react-player": "^2.7.2",
@@ -18,7 +18,9 @@
     "react-scripts": "3.4.3",
     "react-select": "^3.1.1",
     "react-ult": "^2.2.1",
-    "styled-components": "^5.2.0"
+    "redux": "^4.0.5",
+    "styled-components": "^5.2.0",
+    "video-react": "^0.14.1"
   },
   "scripts": {
     "start": "react-scripts start",

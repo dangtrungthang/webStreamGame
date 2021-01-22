@@ -16,7 +16,7 @@ export default function Dropdown(props) {
           boxShadow: state.isFocused ? null : null,
           "&:hover": {
             // Overwrittes the different states of border
-            borderColor: state.isFocused ? "red" : "blue"
+            borderColor: state.isFocused ? "red" : "white"
           }
         }),
         menu: base => ({
