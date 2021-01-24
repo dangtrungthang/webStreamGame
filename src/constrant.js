@@ -6,6 +6,77 @@ export const COLOR_NAME_GAME="white"
 export const COLOR_BORDER_GAME="red"
 export const COLOR_BORDER_TAG="red"
 
+
+
+export const DATA_GIAI_DAU=[
+    {
+        ImageVideo:require("./AssetGame/CSGO/Tou/blast.jpg"),
+        Title:"Blast Premier: Fall 2021",
+        NumberTeams:"8 đội",
+        Area:"Châu Âu (Online)",
+        Viewer:"100K",
+        Date:"15/01 - 03/02/2021"
+    },
+    {
+        ImageVideo:require("./AssetGame/CSGO/Tou/dmarket.jpg"),
+        Title:"DMarker 2021",
+        NumberTeams:"12 đội",
+        Area:"Bắc Mỹ",
+        Viewer:"80K",
+        Date:"20/01-03/03/2021"
+    },
+    {
+        ImageVideo:require("./AssetGame/CSGO/Tou/flashpoint.jpg"),
+        Title:"CS GO :Flash Point",
+        NumberTeams:"8 đội",
+        Area:"Châu Á (Online)",
+        Viewer:"150K",
+        Date:"23/05-30/06/2020"
+    },
+    {
+        ImageVideo:require("./AssetGame/CSGO/Tou/IEM.jpg"),
+        Title:"IEM Beijing-Haidian 2021",
+        NumberTeams:"8 đội",
+        Area:"Bắc Mỹ",
+        Viewer:"90K",
+        Date:"20/02 - 15/03/2021"
+    },
+    {
+        ImageVideo:require("./AssetGame/CSGO/Tou/maincast.jpg"),
+        Title:"Maincast ICE Challenge",
+        NumberTeams:"16 đội",
+        Area:"World",
+        Viewer:"300K",
+        Date:"15/01 - 12/03/2021"
+    },
+    {
+        ImageVideo:require("./AssetGame/CSGO/Tou/dreamparkshowdown.jpg"),
+        Title:"DreamMark 2021",
+        NumberTeams:"8 đội",
+        Area:"Châu Á",
+        Viewer:"20K",
+        Date:"10/02 - 12/03/2021"
+    },
+    {
+        ImageVideo:require("./AssetGame/CSGO/Tou/dreamhack.jpg"),
+        Title:"DreamHack Challenge",
+        NumberTeams:"12 đội",
+        Area:"Châu Á",
+        Viewer:"100K",
+        Date:"15/03-30/04/2021"
+    },
+    {
+        ImageVideo:require("./AssetGame/CSGO/Tou/esl.jpg"),
+        Title:"ELS Pro Lengue ",
+        NumberTeams:"10 đội",
+        Area:"Việt Nam",
+        Viewer:"800K",
+        Date:"10/02-15/03/2021"
+    },
+    
+]
+
+
 export const DATA_CA_NHAN=[
     {
         ImageVideo:"https://static-cdn.jtvnw.net/previews-ttv/live_user_tfblade-440x248.jpg",

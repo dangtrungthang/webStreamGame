@@ -8,7 +8,7 @@ import { TagGame2 } from '../components/Tag/TagGame2';
 import Dropdown from '../components/Dropdown/Dropdown';
 import ListCardVideo1 from '../components/CardVideo/ListCardVideo1';
 import { Link } from 'react-router-dom';
-import { COLOR_BACKGROUND, COLOR_COLOR_TEXT1,DATA_CA_NHAN } from '../constrant';
+import { COLOR_BACKGROUND, COLOR_COLOR_TEXT1,DATA_CA_NHAN,DATA_GIAI_DAU } from '../constrant';
 import Search from '../components/Search/Search';
 import ListGridCardTou from '../components/CardVideo/ListGridCardTou';
 import GridList from "react-gridlist";
@@ -17,8 +17,8 @@ import CardTou from '../components/CardVideo/CardTou';
 
 export default function PageGame() {
 
-    const [isIndex, setIndex] = useState(0);
-    const [data,setData]=useState(DATA_CA_NHAN)
+    const [isIndex, setIndex] = useState(1);
+    const [data,setData]=useState(DATA_GIAI_DAU)
 
     const images = Array.from({ length: 20 }, (_, i) => {
         let width = 344;
@@ -45,12 +45,7 @@ export default function PageGame() {
             height: adjustedHeight,
         }
     }
-    const selectDataExamole=()=>{
-        if(isIndex==0){
-            return DATA_CA_NHAN;
-        }
-        return null;
-    }
+  
 
     return (
         <div className='wrapPageGame' style={{ background: COLOR_BACKGROUND }}>
@@ -97,6 +92,7 @@ export default function PageGame() {
 
                 <a style={isIndex == 1 ? { fontSize: "48px", color: COLOR_COLOR_TEXT1, textDecorationLine: 'underline' } : { color: COLOR_COLOR_TEXT1, fontSize: "48px" }} onClick={() => {
                     setIndex(1)
+                    setData(DATA_GIAI_DAU)
                 }}>Giải đấu</a>
                 <a style={isIndex == 2 ? { fontSize: "48px", color: COLOR_COLOR_TEXT1, textDecorationLine: 'underline' } : { color: COLOR_COLOR_TEXT1, fontSize: "48px" }} onClick={() => {
                     setIndex(2)
@@ -141,7 +137,14 @@ export default function PageGame() {
                             )
                         }else if(isIndex==1){
                             return (
-                                <CardTou/>
+                                <Link to="/tournamentsHome">
+                                    <CardTou ImageVideo={item.ImageVideo}
+                                Title={item.Title}
+                                NumberTeams={item. NumberTeams}
+                                Area={item.Area}
+                                Viewer={item.Viewer}
+                                Date={item.Date}/>
+                                </Link>
                             )
                         }
                         
