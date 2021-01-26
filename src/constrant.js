@@ -7,6 +7,17 @@ export const COLOR_BORDER_GAME="red"
 export const COLOR_BORDER_TAG="red"
 
 
+export const DATA_TEAM=[
+    {
+        ImageVideo:"https://s.starladder.com/uploads/team_logo/3/c/8/a/meta_tag_5422b0262252537603b6ebd8e5ee8b12.png",
+        TeamName:"Astralis "
+    },
+    {
+        ImageVideo:"https://static-cdn.jtvnw.net/jtv_user_pictures/7d90dc87-cd8e-462b-b3d6-a03d63816953-profile_image-300x300.png",
+        TeamName:"Vitality "
+    }
+]
+
 
 export const DATA_GIAI_DAU=[
     {

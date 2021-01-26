@@ -8,7 +8,7 @@ import { TagGame2 } from '../components/Tag/TagGame2';
 import Dropdown from '../components/Dropdown/Dropdown';
 import ListCardVideo1 from '../components/CardVideo/ListCardVideo1';
 import { Link } from 'react-router-dom';
-import { COLOR_BACKGROUND, COLOR_COLOR_TEXT1,DATA_CA_NHAN,DATA_GIAI_DAU } from '../constrant';
+import { COLOR_BACKGROUND, COLOR_COLOR_TEXT1,DATA_CA_NHAN,DATA_GIAI_DAU,DATA_TEAM } from '../constrant';
 import Search from '../components/Search/Search';
 import ItemMatchDetail from '../components/CardTeam/ItemMatchDetail';
 import GridList from "react-gridlist";
@@ -49,7 +49,8 @@ export default function PageTournament() {
                     renderItem={(item) => {
                         if(isIndex==2){
                             return (
-                                <CardTeam/>
+                                <CardTeam ImageVideo={item.ImageVideo} 
+                                TeamName={item.TeamName}/>
                             )
                         }
                         
@@ -64,6 +65,10 @@ export default function PageTournament() {
                <ItemMatchDetail/>
                   </div>
            )
+        }else if(isIndex==1){
+            return(
+                <img src={require("../images/giaidau.png")}/>
+            )
         }
     }
     return (
@@ -111,7 +116,7 @@ export default function PageTournament() {
 
                 <a style={isIndex == 1 ? { fontSize: "48px", color: COLOR_COLOR_TEXT1, textDecorationLine: 'underline' } : { color: COLOR_COLOR_TEXT1, fontSize: "48px" }} onClick={() => {
                     setIndex(1)
-                    setData(DATA_GIAI_DAU)
+                    setData(DATA_TEAM)
                 }}>Bảng đấu</a>
                 <a style={isIndex == 2 ? { fontSize: "48px", color: COLOR_COLOR_TEXT1, textDecorationLine: 'underline' } : { color: COLOR_COLOR_TEXT1, fontSize: "48px" }} onClick={() => {
                     setIndex(2)
