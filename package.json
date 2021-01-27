@@ -19,6 +19,7 @@
     "react-select": "^3.1.1",
     "react-ult": "^2.2.1",
     "redux": "^4.0.5",
+    "screenfull": "^5.1.0",
     "styled-components": "^5.2.0",
     "video-react": "^0.14.1"
   },
