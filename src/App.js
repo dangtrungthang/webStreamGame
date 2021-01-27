@@ -10,12 +10,14 @@ import SignUp from './pages/signup';
 import PageSelectTou from './pages/PageSelectTou'
 import PageGame from './pages/PageGame';
 import PageTournament from './pages/PageTournament';
+import OutCome2 from './pages/OutCome2';
 
 function App() {
   return (
     <Router >
       <Navbar />
       <Switch>
+      <Route  path='/player' exact component={OutCome2} />
         <Route  path='/tournaments' exact component={PageSelectTou} />
         <Route  path='/tournamentsHome' exact component={PageTournament} />
         <Route path='/about' component={SelectGamePage} />
