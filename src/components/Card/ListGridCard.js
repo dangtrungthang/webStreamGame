@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 export default function ListGridCard() {
 
     
-    const getGridGap = (elementWidth, windowHeight) => (elementWidth > 720 && windowHeight > 480) ? 10 : 5;
+    const getGridGap = (elementWidth, windowHeight) => (elementWidth > 720 && windowHeight > 480) ? 70 : 5;
 
     const getColumnCount = (elementWidth) => Math.floor(elementWidth / 200);
 
@@ -27,7 +27,7 @@ export default function ListGridCard() {
 
 
     return (
-        <div style={{marginRight:"20px",marginLeft:"50px",marginTop:'0px',
+        <div style={{marginRight:"20px",marginLeft:"5px",marginTop:'0px',
         }}>
             <GridList
                 

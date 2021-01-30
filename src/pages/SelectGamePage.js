@@ -19,14 +19,14 @@ const SelectGamePage = () => {
       }}
     >
       <a style={{
-        marginTop: "10px",
+        marginTop: "51px",
         marginLeft: "50px",
         fontSize: "48px",
         color: COLOR_COLOR_TEXT1,
         marginBottom: '0px'
       }}>Game</a>
       <div style={{
-        marginTop: "30px",
+        marginTop: "59px",
         marginBottom: "30px",
         flexDirection: 'row',
         display: 'flex',
@@ -49,7 +49,9 @@ const SelectGamePage = () => {
           <Dropdown placeholder="Xem gần đây" />
         </div>
       </div>
-      <ListGridCard />
+     <div>
+     <ListGridCard style={{marginLeft:'-20px'}} />
+     </div>
       <Footer />
     </div>
     </div>

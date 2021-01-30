@@ -6,7 +6,7 @@ import "./style.css"
 export default function CardGame(props) {
 
     return (
-        <div className="_column" style={{ width: "200px", borderColor: COLOR_BORDER_GAME, borderWidth: "1px", borderStyle: 'solid' }}>
+        <div className="_column" style={{ width: "200px",height:"389.6px", borderColor: COLOR_BORDER_GAME, borderWidth: "1px", borderStyle: 'solid' }}>
             <img src={props.src}
                 style={{ width: "198px", height: "266px" }} />
             <div style={{
