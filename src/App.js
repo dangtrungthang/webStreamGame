@@ -11,6 +11,8 @@ import PageSelectTou from './pages/PageSelectTou'
 import PageGame from './pages/PageGame';
 import PageTournament from './pages/PageTournament';
 import OutCome2 from './pages/OutCome2';
+import OutCome3 from './pages/OutCome3';
+import OutCome2Canhan from './pages/OutCome2Canhan';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Navbar />
       <Switch>
       <Route  path='/player' exact component={OutCome2} />
+      <Route  path='/outcome3' exact component={OutCome3} />
+      <Route  path='/playerCaNhan' exact component={OutCome2Canhan} />
         <Route  path='/tournaments' exact component={PageSelectTou} />
         <Route  path='/tournamentsHome' exact component={PageTournament} />
         <Route path='/about' component={SelectGamePage} />

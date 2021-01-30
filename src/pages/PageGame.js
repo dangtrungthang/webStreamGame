@@ -8,11 +8,12 @@ import { TagGame2 } from '../components/Tag/TagGame2';
 import Dropdown from '../components/Dropdown/Dropdown';
 import ListCardVideo1 from '../components/CardVideo/ListCardVideo1';
 import { Link } from 'react-router-dom';
-import { COLOR_BACKGROUND, COLOR_COLOR_TEXT1,DATA_CA_NHAN,DATA_GIAI_DAU } from '../constrant';
+import { COLOR_BACKGROUND, COLOR_COLOR_TEXT1,DATA_CA_NHAN,DATA_GIAI_DAU,DATA_HUONG_DAN } from '../constrant';
 import Search from '../components/Search/Search';
 import ListGridCardTou from '../components/CardVideo/ListGridCardTou';
 import GridList from "react-gridlist";
 import CardVideo1 from '../components/CardVideo/CardVideo1';
+import CardVideoHD from '../components/CardVideo/CardVideoHD';
 import CardTou from '../components/CardVideo/CardTou';
 
 export default function PageGame() {
@@ -96,6 +97,7 @@ export default function PageGame() {
                 }}>Giải đấu</a>
                 <a style={isIndex == 2 ? { fontSize: "48px", color: COLOR_COLOR_TEXT1, textDecorationLine: 'underline' } : { color: COLOR_COLOR_TEXT1, fontSize: "48px" }} onClick={() => {
                     setIndex(2)
+                    setData(DATA_HUONG_DAN)
                 }}>Hướng dẫn</a>
             </div>
             <div style={{
@@ -128,12 +130,14 @@ export default function PageGame() {
                     renderItem={(item) => {
                         if(isIndex==0){
                             return (
+                                <Link to="/playerCaNhan">
                                 <CardVideo1 ImgVideo={item.ImageVideo}  
                                 ImgLogo={item.Logo}
                                 Title={item.Title}
                                 Chanel={item.Chanel}
                                 Viewer={item.Viewer}
                                 />
+                                </Link>
                             )
                         }else if(isIndex==1){
                             return (
@@ -144,6 +148,17 @@ export default function PageGame() {
                                 Area={item.Area}
                                 Viewer={item.Viewer}
                                 Date={item.Date}/>
+                                </Link>
+                            )
+                        }else if(isIndex==2){
+                            return (
+                                <Link to="/outcome3">
+                                <CardVideoHD ImgVideo={item.ImageVideo}  
+                                ImgLogo={item.Logo}
+                                Title={item.Title}
+                                Chanel={item.Chanel}
+                                Viewer={item.Viewer}
+                                />
                                 </Link>
                             )
                         }
