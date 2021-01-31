@@ -15,6 +15,30 @@ export const DATA_TEAM=[
     {
         ImageVideo:"https://static-cdn.jtvnw.net/jtv_user_pictures/7d90dc87-cd8e-462b-b3d6-a03d63816953-profile_image-300x300.png",
         TeamName:"Vitality "
+    },
+    {
+        ImageVideo:"https://orig00.deviantart.net/5eb9/f/2015/291/1/4/logo_skt_iosversion_by_akiruuu-d9djjvq.png",
+        TeamName:"SKT T1 "
+    },
+    {
+        ImageVideo:"https://gamepedia.cursecdn.com/vg_esports_gamepedia_en/thumb/7/77/G2_Esportslogo_square.png/1200px-G2_Esportslogo_square.png",
+        TeamName:"G2 "
+    },
+    {
+        ImageVideo:"https://yt3.ggpht.com/-PuEmdf1rREI/AAAAAAAAAAI/AAAAAAAAAAA/b1BG3JP-PeQ/s900-c-k-no-mo-rj-c0xffffff/photo.jpg",
+        TeamName:"TSM "
+    },
+    {
+        ImageVideo:"https://upload.wikimedia.org/wikipedia/de/0/0d/TeamLiquid_Logo.png",
+        TeamName:"TeamLiquid "
+    },
+    {
+        ImageVideo:"https://gamepedia.cursecdn.com/lolesports_gamepedia_en/thumb/b/b1/Snake_eSportslogo_square.png/1200px-Snake_eSportslogo_square.png",
+        TeamName:"Snake "
+    },
+    {
+        ImageVideo:"https://gamepedia.cursecdn.com/lolesports_gamepedia_en/0/0e/Samsung_Galaxy.png",
+        TeamName:"Samsung "
     }
 ]
 

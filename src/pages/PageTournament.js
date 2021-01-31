@@ -82,22 +82,26 @@ export default function PageTournament() {
     const LoadList = () => {
         if (isIndex == 2) {
             return (
-                <GridList
-                    items={data}
-                    getGridGap={getGridGap}
-                    getColumnCount={getColumnCount}
-                    getWindowMargin={getWindowMargin}
-                    getItemData={getItemData}
-                    renderItem={(item) => {
-                        if (isIndex == 2) {
-                            return (
-                                <CardTeam ImageVideo={item.ImageVideo}
-                                    TeamName={item.TeamName} />
-                            )
-                        }
+                <div style={{marginTop:50}}>
+                    <GridList
+                
+                items={data}
+                getGridGap={getGridGap}
+                getColumnCount={getColumnCount}
+                getWindowMargin={getWindowMargin}
+                getItemData={getItemData}
+                renderItem={(item) => {
+                    if (isIndex == 2) {
+                        return (
+                            <CardTeam ImageVideo={item.ImageVideo}
+                                TeamName={item.TeamName} />
+                        )
+                    }
 
-                    }}
-                />)
+                }}
+            />
+                    </div>
+                )
         } else if (isIndex == 0) {
             return (
                 <div style={{ background: 'white' }}>
