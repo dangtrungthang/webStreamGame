@@ -41,7 +41,7 @@ export default function ItemMatchDetail(props){
             flexDirection:'column',display:'flex', justifyContent:'space-evenly', alignItems:'center',
             }}>
                 <a style={{fontSize:"48px",fontFamily:"Roboto",color:props.fontColor}}>{props.thele}</a>
-               <Link to="/player"> <img src={props.logoTheLe} style={{width:'41.67px',height:'33.33px'}}/></Link>
+               <Link to="/player"> <img src={props.logoTheLe} style={{width:'41.67px',height:'41.67px'}}/></Link>
             </div>
             <a style={{position:'absolute',
             fontSize:"48px",fontFamily:"Roboto",color:props.fontColor,display:'flex',left:"900px",top:"70px"}}>-</a>

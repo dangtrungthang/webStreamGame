@@ -7,11 +7,11 @@ export default function Dropdown(props) {
           ...base,
           background: "black",width:"200px",marginRight:"40px",
           placeholder:"Xem gần đây",
-          opacity:0.1,color:'white',
+          opacity:1,color:'white',
           // match with the menu
           borderRadius: state.isFocused ? "3px 3px 0 0" : 3,
           // Overwrittes the different states of border
-          borderColor: state.isFocused ? "yellow" : "green",
+          borderColor: state.isFocused ? "red" : "white",
           // Removes weird border around container
           boxShadow: state.isFocused ? null : null,
           "&:hover": {

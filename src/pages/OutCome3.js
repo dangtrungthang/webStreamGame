@@ -447,13 +447,13 @@ function OutCome3() {
                     <img style={{ width: "94px", height: "94px", marginRight: "16px", borderRadius: "50px" }} src="https://yt3.ggpht.com/ytc/AAUvwngKfgg-9gav3nrkzNf4gB6rfCPaIp1GikSn7rF8=s88-c-k-c0x00ffffff-no-rj" />
                     <div style={{ display: 'flex', flexDirection: 'column' }}>
                         <a style={{ fontSize: "30px", marginBottom: '10px' }}>Thầy Giáo 3</a>
-                        <a style={{ fontSize: "20px", marginBottom: '10px' }}>LOL</a>
+                        <a style={{ fontSize: "20px", marginBottom: '10px' }}>Vị trí: Đi đường trên</a>
                         <a style={{ fontSize: "20px" }}>Đồng đoàn I</a>
                     </div>
                 </div>
                 <div style={{display:'flex',flexDirection:'column'}}>
                     <div style={{ marginLeft: '50px', margrinTop: '28px', display: 'flex' }}>
-                        <a style={{ marginBottom:"20px",marginTop: "50px", color: COLOR_COLOR_TEXT1, fontFamily: 'Roboto', fontSize: "24px", }}>Danh khoá học</a>
+                        <a style={{ marginBottom:"20px",marginTop: "50px", color: COLOR_COLOR_TEXT1, fontFamily: 'Roboto', fontSize: "24px", }}>Danh sách khoá học</a>
 
                     </div>
 
