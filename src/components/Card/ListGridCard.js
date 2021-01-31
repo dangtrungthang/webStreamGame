@@ -27,7 +27,7 @@ export default function ListGridCard() {
 
 
     return (
-        <div style={{marginRight:"20px",marginLeft:"5px",marginTop:'0px',
+        <div style={{marginRight:"20px",marginLeft:"5px",marginTop:'0px',width:1650
         }}>
             <GridList
                 
@@ -46,8 +46,7 @@ export default function ListGridCard() {
                             
                             NameGame={image.nameGame}
                             Viewer={image.view}
-                            width={300}
-                            height={300}
+                            
                         />
                         </Link>
                         

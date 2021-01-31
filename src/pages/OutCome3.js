@@ -483,13 +483,13 @@ function OutCome3() {
 
             </div>
             <div style={{
-                margrinTop: "21px", background: COLOR_BACKGROUND, width: '550px', height: '1080px',
+                margrinTop: "21px", background: COLOR_BACKGROUND, width: '400px', height: '1080px',
                 display: 'flex', flexDirection: 'column'
             }}>
                 <div style={{ justifyContent: 'center', display: 'flex', marginTop: "21px", width: '100%', marginBottom: '21px' }}>
                     <a style={{ color: COLOR_COLOR_TEXT1, fontFamily: 'Roboto', fontSize: "36px", }}>Danh Sách Bài Học</a>
                 </div>
-                <div style={{ background: COLOR_BACKGROUND, height: "10px", width: '600px' }}></div>
+                <div style={{ background: COLOR_BACKGROUND, height: "10px", width: '300px' }}></div>
 
                 <div style={{ display: 'flex', flexDirection: 'column', marginLeft: '30px' }}>
                     <a style={{ marginBottom: '25px', color: 'red', fontFamily: 'Roboto', fontSize: "25px", }}>1. Hướng dẫn chơi Susan007</a>
